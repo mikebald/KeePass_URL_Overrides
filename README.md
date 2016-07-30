@@ -112,3 +112,21 @@ cmd://"{ENV_PROGRAMFILES_X86}\FileZilla FTP Client\filezilla.exe" sftp://{USERNA
 ```
 cmd://filezilla 'sftp://{USERNAME}@{URL:RMVSCM}'
 ```
+ 
+## SFTP using Key Agent
+
+#### Filezilla FTP Client [Windows]
+ 
+* **Scheme:** `sftp_filezilla`
+* **Command:**
+```
+cmd://"{ENV_PROGRAMFILES_X86}\FileZilla FTP Client\filezilla.exe" sftp://{USERNAME}@{URL:RMVSCM}
+```
+
+### Steam Client [Windows]
+
+* **Scheme:** `steam`
+* **Command:**
+```
+cmd://"c:\Program Files\Steam\Steam.exe" -login {USERNAME} {PASSWORD}
+```
